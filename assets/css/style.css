@@ -1,0 +1,26 @@
+/*Basic Portfolio CSS */
+
+.contentarea {
+    width: 960px;
+    position: absolute;
+}
+.nametab {
+    background: #4AAAA5;
+    color: #ffffff;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
+    width: auto;
+}
+
+#about {
+    padding: 20px;
+}
+
+#portfolio {
+    padding: 20px;
+}
+
+#contact {
+    padding: 20px;
+}

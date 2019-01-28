@@ -47,7 +47,6 @@ h1 {
     padding-top: 30px;
 }
 
-
 li {
     display: inline;
     padding-left: 40px;
@@ -88,10 +87,61 @@ img  {
     height: 200px;
     margin-right: 20px;
 }
-
 #clear {
     padding: 5px 20px;
     clear: both;
+}
+
+.formcontainer {
+    margin-left: 30px;
+}
+
+label {
+    margin-top: 20px;
+}
+
+input[type=text] {
+    width: 96%;
+    padding: 12px 20px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+input[type=text]:focus {
+    border: 1px solid #4aaaa5 ;
+  }
+
+textarea {
+    width: 96%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 12px 20px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+input[type=textarea]:focus {
+    border: 1px solid #4aaaa5;
+}
+
+button {
+        background-color: #4aaaa5;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+
+button:focus {
+    background: green;
+    border: 1px solid #4aaaa5;
+    font-weight: bold;
 }
 
 footer {
